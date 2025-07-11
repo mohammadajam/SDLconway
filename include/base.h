@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <time.h>
 #include <stdio.h>
+#include <string.h>
 
 // defining type aliases
 typedef uint8_t u8;

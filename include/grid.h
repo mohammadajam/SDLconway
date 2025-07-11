@@ -2,8 +2,6 @@
 #define GRID_H
 
 #include "base.h"
-#include <stdbool.h>
-#include <string.h>
 
 #define MAX_WIDTH 255
 #define MAX_HEIGHT 255
@@ -11,7 +9,7 @@
 typedef struct {
 	u8 width;
 	u8 height;
-	bool states[MAX_WIDTH][MAX_HEIGHT];
+	int states[MAX_WIDTH][MAX_HEIGHT];
 
 } Grid;
 

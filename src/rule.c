@@ -3,7 +3,7 @@
 #include "grid.h"
 
 void calculate_next_generation(Grid* grid) {
-	bool new_states[MAX_WIDTH][MAX_HEIGHT];
+	int new_states[MAX_WIDTH][MAX_HEIGHT];
 
 	for (u8 i = 0; i < grid->width; i++) {
 		for (u8 j = 0; j < grid->height; j++) {
